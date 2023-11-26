@@ -241,7 +241,7 @@ public class ScientificCalculator {
         String[] menuItems = {
                 "Addition", "Subtraction", "Multiplication", "Division",
                 "Square Root", "Power", "Sin", "Cos", "Tan", "Secant", "Co-secant", "Co-tangent",
-                "Logarithm (Base 10)", "Natural Logarithm", "Logarithm (Base 2)", "Absolute Value",
+                "Logarithm(Base 10)", "Natural Logarithm", "Logarithm (Base 2)", "Absolute Value",
                 "Ceiling", "Floor", "Round", "Logarithm (Custom Base)", "Factorial", "Exponential",
                 "Angle Mode Changed", "Degrees to Radians", "Radians to Degrees", "(a+b)^c",
                 "(a-b)^c", "Absolute Power", "Modulus", "Square", "Cube", "Minimum", "Maximum",
@@ -252,8 +252,8 @@ public class ScientificCalculator {
         };
 
         // Rest of the code remains unchanged
-        int columnWidth = 30;
-        int columns = 3; // Adjust the number of columns as needed
+        int columnWidth = 27;
+        int columns = 5; // Adjust the number of columns as needed
         int rows = (int) Math.ceil((double) menuItems.length / columns);
 
         displayWelcomeScientific();
